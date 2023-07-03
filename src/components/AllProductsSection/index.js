@@ -17,7 +17,7 @@ class AllProductsSection extends Component {
     const apiUrl = 'https://apis.ccbp.in/products'
     const options = {
       method: 'GET',
-      Header: {
+      headers: {
         Authorization: `Bearer ${jwtToken}`,
       },
     }
